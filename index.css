@@ -1,0 +1,120 @@
+body{
+	text-align: center;
+	border:10px ;
+}
+#mode{
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 20px;
+  right: 20px; /* Position the navbar at the top of the page */ /* Full width */
+}
+.mode-black{
+	background-color: black !important;
+	color: white;
+}
+.imgd-black{
+	background-color: white !important;
+	color: black;
+}
+.imgx{
+	background-color: white !important;
+	color: black;
+}
+.head1{
+	border-width: 10px 0px 10px 0px;
+}
+.inter-details{
+	font-size: 30px !important;
+}
+
+h1{
+	margin: 0px 0px ;
+}
+#welcome{
+	border-bottom:10px ;
+
+	margin-top: 0px !important;
+}
+#thank{
+	border-top:10px ;
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.font1{
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+	margin: 20px 0px !important;	
+}
+.font2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	margin: 10px 0px ;
+}
+
+.delails{
+	font-size: 40px;
+}
+
+
+
+
+.profilesection{
+	padding: 20px;
+	background-color: rgba(255,255,255,0.25);
+	color: white;
+	border-radius: 20px;
+}
+.profile-dark{
+	background-color: rgba(0,0,0,0.25);
+	color: black;
+}
+
+
+#profile{
+	max-width:250px;
+	border: 10px solid black;
+	border-radius: 50%;
+}
+.pro-dark{
+	border: 10px solid white !important;
+	border-radius: 50%;
+	content:url("./images/profilex.jpg");
+}
+
+
+@media (max-width: 576px) {
+	body{
+		border:10px ;
+	}
+	#mode{
+	  overflow: hidden;
+	  background-color: white;
+	  position: fixed; /* Set the navbar to fixed position */
+	  top: 100px;
+	  right: 15px; /* Position the navbar at the top of the page */ /* Full width */
+	}
+	#welcome{
+		border-bottom:10px ;
+
+	}
+  .font1{
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	margin: 20px 0px !important;
+	
+	}
+	.font2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin: 10px 0px !important;
+	}
+}
+
+
+
+
