@@ -86,6 +86,21 @@ h1{
 	content:url("./images/profilex.jpg");
 }
 
+.unity_learn_logo_dark{
+	width: 150px;
+	height:50px:;
+	margin-left: 15px;
+
+	content:url("./images/unity_learn_logo_dark.png");
+}
+
+.unity_play_logo_dark{
+	width: 150px;
+	height:50px:;
+	margin-left: 15px;
+
+	content:url("./images/unity-play-logo-dark.png");
+}
 
 @media (max-width: 576px) {
 	body{
